@@ -5,12 +5,12 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ModulesEntity {
+public class ModuleEntity {
 
     private long id;
 
     private String name;
 
-    private List<EmployeeEntyty> employees;
+    private List<EmployeeEntity> employees;
 
 }

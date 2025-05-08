@@ -7,7 +7,7 @@ import java.time.OffsetDateTime;
 import java.util.List;
 
 @Data
-public class EmployeeEntyty {
+public class EmployeeEntity {
     private long id;
 
     private String name;
@@ -18,7 +18,7 @@ public class EmployeeEntyty {
 
     private List<ContactEntity> contacts;
 
-    private List<ModulesEntity> modules;
+    private List<ModuleEntity> modules;
 
 
 }

@@ -1,0 +1,4 @@
+ALTER TABLE employees_audit
+    MODIFY COLUMN old_name VARCHAR(150) NULL,
+    MODIFY COLUMN old_salary DECIMAL(10, 2) NULL,
+    MODIFY COLUMN old_birthday TIMESTAMP NULL;

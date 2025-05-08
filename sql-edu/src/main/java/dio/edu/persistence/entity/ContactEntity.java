@@ -1,4 +1,4 @@
-package dio.edu.persistence;
+package dio.edu.persistence.entity;
 
 import lombok.Data;
 
@@ -7,4 +7,5 @@ public class ContactEntity {
     private long id;
     private String description;
     private String type;
+    private EmployeeEntity employee;
 }
